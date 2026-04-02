@@ -15,63 +15,63 @@
 ## 📘Project Overview:
 * The project demonstrates how a social media platform operates by analyzing:
 
-> User profiles and activity
-> Post creation and engagement
-> Likes, comments, and follower relationships
-> Hashtag usage and trends
-> User interaction patterns
+>* User profiles and activity
+>* Post creation and engagement
+>* Likes, comments, and follower relationships
+>* Hashtag usage and trends
+>* User interaction patterns
 
 * The system helps in understanding engagement behavior, identifying influencers, and analyzing content performance.
 
 ## 🗂 Data Source:
 * The database represents a simplified social media application where users can:
 
-> Create posts
-> Like and comment on posts
-> Follow other users
-> Use hashtags
+>* Create posts
+>* Like and comment on posts
+>* Follow other users
+>* Use hashtags
 
 ## 🏗 Database Schema:
 🧑 **User_Profiles**
-> User_ID (Primary Key) – Unique user identifier
-> User_Name – Name of the user
-> Date_of_Birth – User’s date of birth
-> Gender – Male/Female
-> Mail_ID – Unique email address
+>* User_ID (Primary Key) – Unique user identifier
+>* User_Name – Name of the user
+>* Date_of_Birth – User’s date of birth
+>* Gender – Male/Female
+>* Mail_ID – Unique email address
 
 📝  **Post_Records**
-> Post_ID (Primary Key) – Unique post ID
-> User_ID (Foreign Key) – References User_Profiles
-> Caption – Post content
-> Posted_at – Timestamp
+>* Post_ID (Primary Key) – Unique post ID
+>* User_ID (Foreign Key) – References User_Profiles
+>* Caption – Post content
+>* Posted_at – Timestamp
 
 👥 **Followers**
-> Follower_ID – User who follows
-> Following_ID – User being followed
-> Follow_date – Timestamp
+>* Follower_ID – User who follows
+>* Following_ID – User being followed
+>* Follow_date – Timestamp
 
 💬 **Comments**
-> Comment_ID (Primary Key)
-> Post_ID – Related post
-> User_ID – Comment author
-> Comment_text – Comment content
-> Commented_at – Timestamp
+>* Comment_ID (Primary Key)
+>* Post_ID – Related post
+>* User_ID – Comment author
+>* Comment_text – Comment content
+>* Commented_at – Timestamp
 
 ❤️ **Likes**
-> Like_ID (Primary Key)
-> Post_ID – Related post
-> User_ID – User who liked
-> Liked_at – Timestamp
+>* Like_ID (Primary Key)
+>* Post_ID – Related post
+>* User_ID – User who liked
+>* Liked_at – Timestamp
 
 #️⃣ **Hashtags**
-> Post_ID – Related post
-> Hashtag – Hashtag text
+>* Post_ID – Related post
+>* Hashtag – Hashtag text
 
 🔔 **Notifications**
-> Notification_ID (Primary Key)
-> User_ID – User receiving notification
-> Message – Notification text
-> Created_at – Timestamp
+>* Notification_ID (Primary Key)
+>* User_ID – User receiving notification
+>* Message – Notification text
+>* Created_at – Timestamp
 
 ## 🛠 Tools & Technologies:
 
