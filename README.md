@@ -14,7 +14,7 @@
 >* How to Use
 
 ## 📘Project Overview:
-* The project demonstrates how a social media platform operates by analyzing:
+* The project demonstrates how a social media platform operates by analyzing: 
 
 >* User profiles and activity
 >* Post creation and engagement
