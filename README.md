@@ -7,8 +7,9 @@
 >* Project Overview
 >* Database Description
 >* Database Schema
->* Features Implemented
+>* Tools and Technologies
 >* Key Insights
+>* Recommendations
 >* Conclusion
 >* How to Use
 
