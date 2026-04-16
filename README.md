@@ -10,7 +10,6 @@
 >* Tools and Technologies
 >* Key Insights
 >* Recommendations
->* Conclusion
 >* How to Use
 
 ## 📘Project Overview:
